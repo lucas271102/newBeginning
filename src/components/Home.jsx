@@ -1,12 +1,16 @@
 import React from "react";
+import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
     <>
-    <div className="flex items-center justify-center">
+    <NavBar/>
+    <div className="flex justify-center  h-screen bg-[url(./assets/background.png)] bg-cover bg-center bg-no-repeat top-0 shadow-inner">
 
-      <h1 className="font-sans">Our mission at Horizon</h1>
+      <h1 className="font-sans text-white">Our mission at Horizon</h1>
     </div>
+    <Footer/>
     </>
   );
 };

@@ -10,6 +10,7 @@ export default {
       fontFamily:{
         'sans':['Geologica','sans-serif' ]
       }
+  
     },
   },
   plugins: [],
