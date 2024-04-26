@@ -207,12 +207,15 @@ const Home = () => {
       </a>
     </div>
 
-    <div className="mt-12 text-center">
+    <div className="mt-12 text-center ">
       <a
-        href="#"
-        className="inline-block rounded bg-pink-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-pink-700 focus:outline-none focus:ring focus:ring-yellow-400"
+        href="https://calendly.com/lucasspeziale/dynamedia"
+        className="inline-block rounded-3xl bg-pink-600 px-12 py-3 sm:text-3xl font-normal font-sans text-white transition hover:bg-pink-700 focus:outline-none focus:ring shadow-xl focus:ring-yellow-400 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
       >
-        Get Started Today
+        <div className="shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
+
+        SCHEDULE A CALL WITH US 
+        </div>
       </a>
     </div>
   </div>
