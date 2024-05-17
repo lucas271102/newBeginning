@@ -63,7 +63,7 @@ const Home = () => {
       >
         <div className="shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]">
 
-        Schedule a call with us 
+        Book your free consultation call now
         </div>
       </a>
     </div>
