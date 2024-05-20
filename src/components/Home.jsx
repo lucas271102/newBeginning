@@ -1,10 +1,15 @@
 import React from "react";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   return (
     <>
+    <Helmet>
+      <title>Home</title>
+      <meta name="description" content="Horizon Solutions Home page" />
+    </Helmet>
       <div className="bg-gradient-to-r from-slate-900 to-slate-800">
         <NavBar />
         <div className="flex justify-center  h-screen ">
